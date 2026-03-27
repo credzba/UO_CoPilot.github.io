@@ -1,135 +1,24 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <title>Razor Enhanced Project - Utima Online Assistant</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <style>
-    .btn {
-    background-color: DarkRed;
-    border: none;
-    color: white;
-    padding: 2px 3px;
-    cursor: pointer;
-    font-size: 15px;
-    }
 
-    /* Darker background on mouse-over */
-    .btn:hover {
-    background-color: Gray;
-    }
-    .btn-gray {
-    background-color: Gray;
-    border: none;
-    color: white;
-    padding: 2px 3px;
-    cursor: pointer;
-    font-size: 15px;
-    }
-
-    .navbar-header, .navbar-right{
-      border-left: 1px solid rgb(233, 233, 233);
-      padding: 0px;
-    }
-    
-    .navbar-link{
-      width: 180px;
-      display: inline-block;
-      height: 50px;
-      border-right: 1px solid rgb(233, 233, 233);
-      text-align: center;
-      vertical-align: center;
-      padding: 10px;
-      margin: 0px;
-      font-weight: bold;
-    }
-
-    </style>
-  <!link href="css/bootstrap.css" rel="stylesheet" media="screen"-->
-  <link href="css/stili-custom.css" rel="stylesheet" media="screen">
-  <link href='http://fonts.googleapis.com/css?family=Roboto:300,900' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-</head>
-<body>
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-link" href="https://razorenhanced.net/doc/api/">
-          API <small>(beta)</small>
-        </a>
-        <a class="navbar-link" href="https://razorenhanced.github.io/doc/tutorials/">
-          Tutorials
-        </a>
-        <a class="navbar-link" href="https://razorenhanced.net/dokuwiki/">
-          Wiki
-        </a>
-            
-      </div>
-      <div class="collapse navbar-collapse nav navbar-nav navbar-right" id="bs-example-navbar-collapse-1">
-          
-            <a class="navbar-link" href="https://razorenhanced.net/">
-              RazorEnhanced
-            </a>
-
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="row text-center splash"><img src="img/razor-enhanced-splash.png" alt="Razor Enanched Splash"></div>
+<div class="container">
+    <div class="row text-center splash"><img src="img/uo-copilot-splash.png" alt="UO Copilot"></div>
     <div class="row">
         <div class="jumbotron">
-            <h2><b>Welcome to razorenhanced.net!</b></h2><br>
-            <h3><b>Razor Enhanced</b></h3><br>
-            This site houses the Razor Enhanced project, a new advanced version derived dall'assistant 2D .NET Razor for <b>Ultima Online</b> ( https://github.com/msturgill/razor ). warmly thank all the authors of <b>Razor</b> and the developer community <b>RunUO</b> for letting us with their work to make this small but important experiment.<br>
-            <br>
-            Currently the project is in phase <b>Beta</b> , that is to say that, though the development is already in an advanced state, the many new features that have been added require intensive before the final release test. How it differs from the original project Enhanced Razor Razor? In short, we note among others the following features<br>
+            <h2><b>Welcome to uo-copilot.net!</b></h2><br>
+            <h3><b>UO-Copilot</b></h3><br>
+            This is a stub until I build some content for uo-copilot.
             <br>
             <ol>
-                <li>It is based on .NET 4.5 and has therefore a lot of improvements available in this framework (higher speed, stability, etc.)</li>
-                <li>A wide range of specialized Agent (Autoloot, Scavenger, Organizer, Vendor Buy, Sell Vendor, Dress, Restock, Bandage, etc.)</li>
-                <li>A new targeting system and Filtering evolved that allows you to select more accurately the targets PVP and PVM</li>
-                <li>A built-in scripting engine based entirely on IronPython .NET that lets you use all the native features of the Python language with ability to run multiple scripts simultaneously</li>
-                <li>A built-in scripting engine that mimics UOSteam command and syntax</li>
+                <li>It is based on .NET 4.7 but can be built on windows or linux with any .net up to 10</li>
+                <li>Has all the old agents available in RazorEnhanced (Autoloot, Scavenger, Organizer, Vendor Buy, Sell Vendor, Dress, Restock, Bandage, etc.)</li>
+                <li>The same targeting system and Filtering</li>
+                <li>built-in scripting engines that support IronPython .NET, CSharp, UOSteam, Razor Macro, and is extensible to future languages.</li>
             </ol><br>
             <div>
                 <div style="border: thin solid black">
                     <b>Latest Build:</b>
                     <br>
-		    <a href="https://github.com/RazorEnhanced/RazorEnhanced/releases/download/v1.0.0.3/RazorEnhanced-1.0.0.3.zip" class="btn"><i class="glyphicon glyphicon-download-alt"></i> Razor</a>
-                    Razor Enhanced supports OSI clients on Windows and Linux/Wine + CUO Windows Only
-                    Python 3.4 version
-                    <br>
-		    <a href="https://github.com/RazorEnhanced/RazorEnhanced/releases" class="btn"><i class="glyphicon glyphicon-arrow-right"></i> Previous Razor Releases</a>
-                    <br>
-		    <br>
-                    <b>Free Server Updater:</b>
-                    <br>
-                    <a href="https://github.com/credzba/uo_update/blob/main/UpdateUO.zip" class="btn"><i class="glyphicon glyphicon-download-alt"></i> UO Updater</a>
-		    <br>
-                    This UO updater works with the format specified by Orion for downloading UO updates.
-		    <br>
-                    It should be placed in the UO folder, as it just downloads to the immediate folder it is in.
-                    <br>		    
-                    <br>		    
-                    <b> 7.X system. Deprecated and not receiving updates:</b>
-                    <br>
-                    <a href="//github.com/RazorEnhanced/RazorEnhanced/releases/download/v0.7.7.29/RazorEnhanced-0.7.7.29.zip" class="btn"><i class="glyphicon glyphicon-download-alt"></i> Razor</a>
-                    <br>
-                    <br>
-                    <a href="https://github.com/dust765/ClassicUO/releases/latest" class="btn"><i class="glyphicon glyphicon-download-alt"></i> DustyCUO from RE</a>
-                    Razor Enhanced is building dust765's version of CUO that has some extra features<br />
-                    https://github.com/dust765
-                    <br>
-                    <br>
-                    <a href="https://github.com/RazorEnhanced/RazorEnhanced/releases/download/v1.0.0.3/RazorEnhanced-1.0.0.3.zip" class="btn"><i class="glyphicon glyphicon-download-alt"></i> Just a experiment dev build for CUO from RE</a>
-                    I was playing with some new features on CUO, and liked the changes put in for Outlands Character Status Window, so I built this one.
-		    No warranty or promises, but its fun<br>
-                    https://github.com/RazorEnhanced/ClassicUO
-                    <br>
-                    <br>
+		    <a href="https://github.com/UO-Copilot/uo-copilot/releases/download/v0.0.0.3/uo-copilot-0.0.0.3.zip" class="btn"><i class="glyphicon glyphicon-download-alt"></i> UO-CoPilot</a>
                 </div>
                 <div style="border: thin solid black">
                     <b> MAPS </b>
@@ -176,16 +65,14 @@
     <noscript>
     <h6></h6></noscript>
     <div class="container">
-      &copy;2019-2026 Razor Enhanced Project. -- credzba <a href="https://github.com/RazorEnhanced/RazorEnhanced" class="btn-gray">src</a>
+      &copy;2026-2026 UO-CoPilot Project. -- credzba <a href="https://github.com/Credzba/UO_CoPilot" class="btn-gray">src</a>
       <br>
-      &copy;2016 Razor Enhanced Project. -- AlexDan <a href="https://bitbucket.org/RazorFork/razor-enhanced/" class="btn-gray">src</a>
     </div>
   </footer>
   <script src="http://code.jquery.com/jquery.js"></script> 
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
 
 
 
